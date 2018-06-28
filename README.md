@@ -13,7 +13,7 @@ create templates folder in flaskproject
 now copy home.html and get_url.html to templates folder
 $python twitter_data.py
 now go to browser and give 
-127.0.0.1:50000/
+127.0.0.1:5000/
 enter your twitter username
 wait for sometime
 you can view result 
