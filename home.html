@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { 
+      background-color: white;
+}
+.header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: Black;
+    padding: 10px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.column {
+    float: left;
+    padding: 75px;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+<title>Enter user name</title>
+</head>
+<body>
+<div class="header">
+<center><h1>TWITTER EASY </h1></center>
+</div>
+<div class="topnav">
+  <a href="https://www.twitter.com">Twitter</a>
+</div>
+<div class="row">
+  <div class="column side">
+    <h1>About</h1>
+    <p>This application helps you get recent links tweeted by people whom you are following.</p>
+      <p> This application is developed using tweepy and flask fframework</p>
+<h1>Note</h1>
+<p> loading procedure may take some time ! please wait !</p>
+</div>
+  <div class="column middle">
+    <h2>Enter your twitter user name </h2>
+    <form  action="{{ url_for('get_url') }}" method='POST'>
+<input type="text" class="form-control" name="name"  />
+<button type="submit" name="submit" value="submit"> submit</button>
+</form>
+  </div>
+</div>
+
+<div class="footer">
+<p>developed by K.S. Sai Kavya, Siddaganga Institute of technology, Tumkur</p></div>
+</body>
+</html>
