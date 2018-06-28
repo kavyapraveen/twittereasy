@@ -18,3 +18,8 @@ enter your twitter username
 wait for sometime
 you can view result 
 you may not get reult if number of friends are more
+ output:
+ 1)as you can see in screenshot102, you have to first enter your username and click on submit
+ 2) now page is redirected to final page , asyou can see in screenshot104
+ 3) now when you click on the link displayed you can visit the site, example screenshot107 
+ 
