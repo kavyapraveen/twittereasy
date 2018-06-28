@@ -17,3 +17,4 @@ now go to browser and give
 enter your twitter username
 wait for sometime
 you can view result 
+you may not get reult if number of friends are more
